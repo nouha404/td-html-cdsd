@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: rgb(220,220,220);
+    font-family: 'Libre Franklin', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    margin: 20px 30px;
+    background: whitesmoke;
+   
+}
+.title {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 540;
+    width: 20vh;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vh;
+    margin: 0 9vh;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 540;
+    
+}
+section {
+    margin: -10px 30px;
+    background: white;
+ 
+}
+.image-caption {
+    
+    background: url('./images/hu.jfif') center/cover;
+    
+    height: 90vh;
+    transform: scale(0.7) translateY(-10%);
+}
+.hover {
+   
+    transform: translateY(-60%);
+    height: 20vh;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px;
+}
+.hover:hover {
+    
+   
+    box-shadow: 2px -1px 17px 0px rgba(0,0,0,1);
+   
+
+}
+
+.hover p {
+    margin: 20px;
+    font-size: 1rem;
+}
+.container-details {
+    
+    margin: -70px;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 50vh;
+}
+.box {
+    width: 45%;
+   
+
+   
+}
+.box:nth-child(1) {
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box:nth-child(2) {
+    background: url('./images/20211219_101702.jpg') center/cover ;
+    transform: scale(0.7);
+}
+h3 {
+    text-align: center;
+}
+.apropos {
+    height: 10vh;
+    margin: 40px;
+}
+.about {
+    display: flex;
+    margin: 100px;
+    transform: translateY(-30%);
+   justify-content: space-between;
+
+}
+.item  {
+   
+   height: 40vh;
+   width: 50vh;
+   background: url('./images/hahah.png') center/cover;
+ 
+    
+}
+.item:nth-child(2) {
+    background: url('./images/20211111_181550.jpg') center/cover;
+}
+.item:nth-child(3) {
+    background: purple;
+    background: url('./images/right.jpg') center/cover;
+}
+.container-content {
+    display: flex;
+    margin: -12% 30px;
+    height: 40vh;
+    justify-content: space-around;
+    
+}
+textarea {
+    width: 80%;
+    height: 25vh;
+    background: rgb(220,220,220);
+    margin: 30px;
+    border-radius: 10px;
+}
+form {
+    margin: 30px;
+    height: 90vh;
+    
+}
+input {
+    background: rgb(220,220,220);
+    width: 80%;
+    margin: 0 30px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    outline: none;
+    
+    
+}
+label {
+    position: relative;
+    top: 20px;
+    padding: 15px;
+   
+}
+
+.btn {
+    border: 1px solid black;
+    font-size: 1.5rem;
+    width: 30vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 30px;
+    transform: scale(0.9) translateY(-20%);
+    box-shadow: 5px 2px 5px 2px rgb(196, 196, 196);
+    
+}
+.btn:hover {
+    border-radius:  0 30px;
+    transform: scale(0.8)
+}
+h3::selection, p::selection {
+    color: green;
+    cursor: pointer;
+}
+textarea {
+    padding-left: 20px;
+    resize: none;
+    font-size: 1.5rem;
+}
+footer {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    background: #050404;
+    color: white;
+}
+.container-contact {display:flex;}
+span {
+    margin-left: 10px;
+}
+.icone {
+    
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
